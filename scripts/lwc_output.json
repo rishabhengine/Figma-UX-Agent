@@ -1,0 +1,140 @@
+{
+  "tag": "template",
+  "attributes": {},
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": "slds-m-vertical_medium"
+      },
+      "children": [
+        {
+          "tag": "h1",
+          "attributes": {
+            "class": "slds-text-heading_small"
+          },
+          "children": [],
+          "text": "Formatted Address",
+          "styles": {}
+        },
+        {
+          "tag": "p",
+          "attributes": {
+            "class": "slds-text-body_regular"
+          },
+          "children": [],
+          "text": "This component formats an address and automatically links it to Google Maps.",
+          "styles": {}
+        }
+      ],
+      "text": "Formatted Address\n        This component formats an address and automatically links it to Google Maps.",
+      "styles": {}
+    },
+    {
+      "tag": "lightning-formatted-address",
+      "attributes": {
+        "street": "121 Spear St.",
+        "city": "San Francisco",
+        "country": "US",
+        "province": "CA",
+        "postal-code": "94105"
+      },
+      "children": [],
+      "styles": {}
+    },
+    {
+      "tag": "div",
+      "attributes": {
+        "class": "slds-m-vertical_medium"
+      },
+      "children": [
+        {
+          "tag": "h1",
+          "attributes": {
+            "class": "slds-text-heading_small"
+          },
+          "children": [],
+          "text": "Formatted Address in Plain Text",
+          "styles": {}
+        },
+        {
+          "tag": "p",
+          "attributes": {
+            "class": "slds-text-body_regular"
+          },
+          "children": [],
+          "text": "This component formats an address but doesn't link to Google Maps.",
+          "styles": {}
+        }
+      ],
+      "text": "Formatted Address in Plain Text\n        This component formats an address but doesn't link to Google Maps.",
+      "styles": {}
+    },
+    {
+      "tag": "lightning-formatted-address",
+      "attributes": {
+        "street": "121 Spear St.",
+        "city": "San Francisco",
+        "country": "US",
+        "province": "CA",
+        "postal-code": "94105",
+        "disabled": ""
+      },
+      "children": [],
+      "styles": {}
+    },
+    {
+      "tag": "div",
+      "attributes": {
+        "class": "slds-m-vertical_medium"
+      },
+      "children": [
+        {
+          "tag": "h1",
+          "attributes": {
+            "class": "slds-text-heading_small"
+          },
+          "children": [],
+          "text": "Formatted Address where variant='plain'",
+          "styles": {}
+        },
+        {
+          "tag": "p",
+          "attributes": {
+            "class": "slds-text-body_regular"
+          },
+          "children": [],
+          "text": "This component does not have the slds-truncate class attached to each address line, so lines will wrap instead of truncating.",
+          "styles": {}
+        }
+      ],
+      "text": "Formatted Address where variant='plain'\n        This component does not have the slds-truncate class attached to each address line, so lines will wrap instead of truncating.",
+      "styles": {}
+    },
+    {
+      "tag": "div",
+      "attributes": {
+        "style": "width: 100px; word-break: break-all;"
+      },
+      "children": [
+        {
+          "tag": "lightning-formatted-address",
+          "attributes": {
+            "street": "45 Ffordd Penmynydd",
+            "city": "St Mary's Church in the Hollow of the White Hazel near a Rapid Whirlpool and the Church of St. Tysilio near the Red Cave",
+            "country": "United Kingdom",
+            "province": "Wales",
+            "postal-code": "LL61 5UJ",
+            "variant": "plain",
+            "disabled": ""
+          },
+          "children": [],
+          "styles": {}
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "text": "Formatted Address\n        This component formats an address and automatically links it to Google Maps.\n    \n\n    \n\n    \n        Formatted Address in Plain Text\n        This component formats an address but doesn't link to Google Maps.\n    \n\n    \n\n    \n        Formatted Address where variant='plain'\n        This component does not have the slds-truncate class attached to each address line, so lines will wrap instead of truncating.",
+  "styles": {}
+}

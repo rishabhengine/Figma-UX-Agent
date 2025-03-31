@@ -1,0 +1,16 @@
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    margin-top: 10px;
+}
+

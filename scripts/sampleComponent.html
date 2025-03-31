@@ -1,0 +1,46 @@
+<template>
+    <div class="slds-m-vertical_medium">
+        <h1 class="slds-text-heading_small">Formatted Address</h1>
+        <p class="slds-text-body_regular">This component formats an address and automatically links it to Google Maps.</p>
+    </div>
+
+    <lightning-formatted-address
+        street="121 Spear St."
+        city="San Francisco"
+        country="US"
+        province="CA"
+        postal-code="94105"
+    ></lightning-formatted-address>
+
+    <div class="slds-m-vertical_medium">
+        <h1 class="slds-text-heading_small">Formatted Address in Plain Text</h1>
+        <p class="slds-text-body_regular">This component formats an address but doesn't link to Google Maps.</p>
+    </div>
+
+    <lightning-formatted-address
+        street="121 Spear St."
+        city="San Francisco"
+        country="US"
+        province="CA"
+        postal-code="94105"
+        disabled
+    ></lightning-formatted-address>
+
+    <div class="slds-m-vertical_medium">
+        <h1 class="slds-text-heading_small">Formatted Address where variant='plain'</h1>
+        <p class="slds-text-body_regular">This component does not have the slds-truncate class attached to each address line, so lines will wrap instead of truncating.</p>
+    </div>
+
+    <div style="width: 100px; word-break: break-all;">
+        <lightning-formatted-address
+            street="45 Ffordd Penmynydd"
+            city="St Mary's Church in the Hollow of the White Hazel near a Rapid Whirlpool and the Church of St. Tysilio near the Red Cave"
+            country="United Kingdom"
+            province="Wales"
+            postal-code="LL61 5UJ"
+            variant="plain"
+            disabled
+        ></lightning-formatted-address>
+    </div>
+    
+</template>
