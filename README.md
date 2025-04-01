@@ -1,1 +1,0 @@
-# Figma-UX-Agent
